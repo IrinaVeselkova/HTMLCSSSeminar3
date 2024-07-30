@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 * {
 	margin: 0;
@@ -26,46 +26,63 @@ img {
 	max-width: 1174px;
 	margin: 0 auto;
 }
-.home {
-	color: #f25822;
-	font-weight: 600;
-}
+
 .navigation a {
-	font-size:14px;
-	line-height: auto;
+	display:inline-block;
+	font-size: 14px;
 	color: #000000;
+	text-align: right;
+	
 }
 
-.header{
+
+.header {
 	padding: 40px 0 84px 0;
+	
 }
-.main{
+
+.main {
 	padding: 0 0 200px 0;
 }
 .footer {
 	padding: 0 0 100px 0;
+	
 }
-
-.mainContent__leftSide h1{
+.footer a {
+	display:inline-block;
+}
+.mainContent__leftSide h1 {
 	font-size: 60px;
 	font-weight: 700;
 	margin-bottom: 20px;
 	line-height: 120%;
 }
-.mainContent__leftSide p{
+.mainContent__leftSide p {
 	margin-bottom: 20px;
 	font-size: 20px;
-	
+
 	line-height: 140%;
 }
 
-.mainContent__leftSide-btnList button{padding: 16px 10px;
+.mainContent__leftSide-btnStart {
+	padding: 16px 10px;
 	font-size: 16px;
 	font-weight: 600;
-	color:#ffffff;
+	color: #ffffff;
 	border-radius: 56px;
 	background: #f25822;
 	border: none;
 	min-width: 140px;
 	cursor: pointer;
 }
+.mainContent__leftSide-btnWatch {
+	padding: 16px 10px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #AAAAAA;
+	background: none;
+	border: none;
+	min-width: 140px;
+	cursor: pointer;
+}
+
